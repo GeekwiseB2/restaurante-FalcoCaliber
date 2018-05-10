@@ -1,0 +1,131 @@
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFF;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.first-slide {
+  background-image: url(../img/wood-2.jpg);
+}
+
+.second-slide {
+  background-image: url(../img/farm-2.jpg);
+}
+
+.third-slide {
+  background-image: url(../img/restaurant-2.jpg);
+
+}
+
+.carousel-inner .item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-logo {
+  max-height: 300px;
+}
+
+.carousel-caption {
+  padding-bottom: 100px;
+}
+
+.backdrop {
+  z-index: -1;
+  position: absolute;
+}
+
+#ourstory {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+/* quote */
+
+#review {
+  background-image: url(../img/food_review.jpg);
+  min-height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+#review .row .container {
+  background-color: rgba(20,20,20 .6)
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#review p {
+  color: #FFF;
+  font-family: 'Raleway' , san-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0A0A0A;
+}
+
+/* menu */
+
+#menu {
+  background-image: url(../img/black_linen.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+#menu h1 {
+  color: #FFF;
+}
+
+#menu a {
+  color: #F8512F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu .tab-content .food {
+  background-color: #FFF;
+  padding: 10px;
+}
+
+#menu .tab-content .row {
+  margin: 0;
+}
+
+/* contact  */
+
+#contact {
+  background-color: #F8512F;
+  min-height: 600px;
+  color: #FFF;
+  padding: 0 0 50px 0;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 50px 0 0 0;
+}
+
+#contact .form-group span {
+  color: #FF0D06;
+}
+
+#contact form {
+  background-color: #FF6633;
+  border: 1px solid #FFF;
+  padding: 15px;
+}
